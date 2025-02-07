@@ -174,7 +174,7 @@
                 <p>{{ session('success') }}</p>
             @endif
 
-            <!-- @if (session('emails_to_delete'))
+            @if (session('emails_to_delete'))
                 <h4>Employees to Delete</h4>
                 <table border="1" cellpadding="10">
                     <thead>
@@ -244,7 +244,7 @@
                         @endforeach
                     </tbody>
                 </table>
-            @endif -->
+            @endif
         </div>
 
 
